@@ -1,0 +1,25 @@
+{
+  "name": "aviary-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "flow": "flow",
+    "build": "babel src/ -d build/",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "InvokIT <sj@invokit.dk>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "debug": "^3.0.1",
+    "lodash": "^4.17.4",
+    "supports-color": "^4.4.0",
+    "watershed": "^0.3.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.54.1"
+  }
+}
