@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "flow": "flow",
+    "flow-typed": "flow-typed",
     "build": "babel src/ -d build/",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,12 +15,15 @@
   "dependencies": {
     "debug": "^3.0.1",
     "lodash": "^4.17.4",
+    "moment": "^2.18.1",
     "supports-color": "^4.4.0",
+    "uuid": "^3.1.0",
     "watershed": "^0.3.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
-    "flow-bin": "^0.54.1"
+    "flow-bin": "^0.54.1",
+    "flow-typed": "^2.1.5"
   }
 }
